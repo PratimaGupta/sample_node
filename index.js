@@ -8,6 +8,7 @@ app.get('/', function (req, res) {
 });
 //listen to port 3000 by default
 //send noti
+//deploy
 app.listen(process.env.PORT || 3000);
  
 module.exports = app;
